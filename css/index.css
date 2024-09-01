@@ -1,0 +1,46 @@
+body{
+    margin: 50px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    }
+.menuprincipal{
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+} 
+img{
+    height: 150px;
+    width: 200px;
+}
+.buscador{
+    width: auto;
+    border: 1px solid red;
+    padding: 5px;
+}
+.boton{
+    background-color: #F28017;
+    font-size: 1.2em;
+    padding: 10px 20px; 
+}
+.botones{
+    display: flex;
+    justify-content: space-between;  
+}
+.contenido{
+    display: flex;
+}
+.images img{
+    height: 470px;
+    width: 450px;
+}
+.perfil{
+    display: flex;
+}
+.ayuda{
+    display: flex;
+}
+

@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFD77A;
+}
+
+header {
+    width: 100%;
+    background-color: #FF7A00;
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    margin: 0 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.logo {
+    width: 60px;
+}
+
+.profile-icon {
+    width: 20px;
+    margin-right: 5px;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    min-height: 80vh; /* Ajusta la altura mínima para que sea más largo */
+    padding: 20px;
+    position: relative; /* Permite la superposición controlada de elementos */
+}
+
+.success-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia para mejor visibilidad */
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra los elementos verticalmente */
+}
+
+.checkmark-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid green;
+    position: relative;
+    margin: 20px auto;
+    animation: popIn 0.5s ease-in-out;
+}
+
+.checkmark {
+    width: 30px;
+    height: 60px;
+    border-right: 5px solid green;
+    border-bottom: 5px solid green;
+    position: absolute;
+    top: 20px;
+    left: 35px;
+    transform: rotate(45deg);
+    animation: drawCheckmark 0.5s ease-out;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+p {
+    color: black;
+    margin-top: 10px;
+}
+
+.fonde {
+    background-image: url(/IMG/voleibol2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
